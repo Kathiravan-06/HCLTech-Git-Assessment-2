@@ -1,9 +1,5 @@
 # Part 1 – Git Fundamentals
 
-**Questions 1–10**
-
-**Topics:** Git initialization, clone, add, commit, push, fetch, `.gitignore`, and SSH authentication.
-
 ---
 
 ## Q1. Starting Version Control for a Billing Project
@@ -268,4 +264,4 @@ Working directory:
 
 ---
 
-**End of Part 1 – Git Fundamentals**
+
