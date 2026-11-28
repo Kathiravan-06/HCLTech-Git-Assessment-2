@@ -1,0 +1,13 @@
+git switch -c feature/invoice
+git add invoice.c
+git commit -m "Add invoice generation"
+git fetch origin
+git merge origin/main
+git add invoice.c
+git commit
+git push -u origin feature/invoice
+git switch main
+git merge --no-ff feature/invoice -m "Merge feature/invoice into main"
+git push origin main
+git branch -d feature/invoice
+git push origin --delete feature/invoice
